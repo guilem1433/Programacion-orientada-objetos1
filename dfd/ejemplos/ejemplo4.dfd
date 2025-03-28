@@ -1,0 +1,52 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+22
+'ingresar nota parial'
+5
+1
+5
+nota1
+4
+1
+8
+'nota 2'
+5
+1
+5
+nota2
+6
+3
+8
+parcial1
+9
+nota1*0.4
+8
+parcial2
+9
+nota2*0.6
+5
+final
+17
+parcial1+parcial2
+7
+0
+1
+11
+final>=2.96
+4
+1
+15
+'reprovo',final
+13
+4
+1
+15
+'aprovo', final
+13
+1
