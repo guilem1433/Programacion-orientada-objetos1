@@ -7,5 +7,6 @@ def number(i):
     for  i in range (1, i + 1):
         result *= i
     return result
-number = -5
+
+number = 7
 print(f"el factorial es {number} es {factorial(number)}")

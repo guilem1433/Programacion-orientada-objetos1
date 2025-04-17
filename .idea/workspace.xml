@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23fbf6d5-4e59-425b-941c-ffb5e0af7998" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Calculadora14325.java/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculadora14325.java/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculadora14325.java/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculadora14325.java/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculadora14325.java/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculadora14325.java/Calculadora14325.java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculadora14325.java/src/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculadora14325.java/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dfd/dejercicio2.dfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dfd/ejemplos/ejemplo2.dfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dfd/ejemplos/ejemplo4.dfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/factorial283225.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/migracióncodigo28325.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/040425/calculator_python.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/040425/psint_16ejemplos/instructions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/280325/minimo_comun_multiplo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trys.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/factorial283225.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/280325/factorial283225.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/migracióncodigo28325.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/280325/migracióncodigo28325.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2uwoEmkDiFQN5U6b0CIq177miY4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,21 +38,28 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Calculadora.executor": "Run",
+    "Python.calculator_python.executor": "Run",
     "Python.factorial283225.executor": "Run",
     "Python.migracióncodigo28325.executor": "Run",
+    "Python.minimo_comun_multiplo.executor": "Run",
+    "Python.trys.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/gilem/programing/IdeaProjects/Programacion-orientada-objetos1",
+    "last_opened_file_path": "/home/gilem/programing/pobtaller2/python_code",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/python/280325" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -79,6 +80,12 @@
       <option name="presentableId" value="Default" />
       <updated>1743168889741</updated>
       <workItem from="1743168891543" duration="6093000" />
+      <workItem from="1743360144567" duration="256000" />
+      <workItem from="1743771140402" duration="925000" />
+      <workItem from="1743772130245" duration="2921000" />
+      <workItem from="1743861152122" duration="1850000" />
+      <workItem from="1744377928743" duration="5874000" />
+      <workItem from="1744657751358" duration="726000" />
     </task>
     <servers />
   </component>
@@ -86,7 +93,11 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Programacion_orientada_objetos1$migracióncodigo28325.coverage" NAME="migracióncodigo28325 Coverage Results" MODIFIED="1743173195076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
-    <SUITE FILE_PATH="coverage/Programacion_orientada_objetos1$factorial283225.coverage" NAME="factorial283225 Coverage Results" MODIFIED="1743174069310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/Programacion_orientada_objetos1$trys.coverage" NAME="trys Coverage Results" MODIFIED="1744383515394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Programacion_orientada_objetos1$calculator_python.coverage" NAME="calculator_python Coverage Results" MODIFIED="1744380808528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/040425" />
+    <SUITE FILE_PATH="coverage/Programacion_orientada_objetos1$migracióncodigo28325.coverage" NAME="migracióncodigo28325 Coverage Results" MODIFIED="1743774325574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/280325" />
+    <SUITE FILE_PATH="coverage/Programacion_orientada_objetos1$minimo_comun_multiplo.coverage" NAME="minimo_comun_multiplo Coverage Results" MODIFIED="1743774459064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/280325" />
+    <SUITE FILE_PATH="coverage/Programacion_orientada_objetos1$Calculadora.coverage" NAME="Calculadora Coverage Results" MODIFIED="1744381773460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Programacion_orientada_objetos1$factorial283225.coverage" NAME="factorial283225 Coverage Results" MODIFIED="1743774299348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/280325" />
   </component>
 </project>
