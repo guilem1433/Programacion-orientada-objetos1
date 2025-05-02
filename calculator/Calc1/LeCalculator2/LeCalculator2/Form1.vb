@@ -1,11 +1,9 @@
-Public Class calculatorpob1
+﻿Public Class Form1
     Dim numerouno As Double
     Dim numerodos As Double
     Dim total As Double
     Dim operacion As Double
     Dim memoria As Double = 0
-    Dim valorOriginal As Double
-    Dim estaInvertido As Boolean = False
 
 
     Private Sub button20_Click(sender As Object, e As EventArgs) Handles button20.Click
@@ -94,15 +92,9 @@ Public Class calculatorpob1
     End Sub
 
     Private Sub button12_Click(sender As Object, e As EventArgs) Handles button12.Click
-        If textBox1.Text.StartsWith("-") Then
-            ' Si ya es negativo, lo volvemos positivo
-            textBox1.Text = textBox1.Text.Substring(1)
-        ElseIf textBox1.Text <> "" Then
-            ' Si es positivo, lo volvemos negativo
-            textBox1.Text = "-" & textBox1.Text
-        End If
+        textBox1.Text = "-" & textBox1.Text
+        button12.Enabled = False
     End Sub
-
 
     Private Sub button4_Click(sender As Object, e As EventArgs) Handles button4.Click
         numerodos = Val(textBox1.Text)
@@ -122,29 +114,12 @@ Public Class calculatorpob1
     End Sub
 
     Private Sub button2_Click(sender As Object, e As EventArgs) Handles button2.Click
-
-        If textBox1.Text = "" Or Not IsNumeric(textBox1.Text) Then
-            textBox1.Text = "Error"
-            Exit Sub
-        End If
-
-        Dim numeroActual As Double = Val(textBox1.Text)
-
-        If numeroActual < 0 Then
-            textBox1.Text = "Error"
-            Exit Sub
-        End If
-
-        numeroActual = Math.Sqrt(numeroActual)
-
-        ' Forzar que si es muy pequeño, no lo redondee a 1
-        If numeroActual < 0.0000001 Then
-            textBox1.Text = "0"
-        Else
-            textBox1.Text = numeroActual.ToString()
+        operacion = 6
+        If operacion = 6 Then
+            numerouno = Val(textBox1.Text)
+            textBox1.Text = System.Math.Sqrt(numerouno)
         End If
     End Sub
-
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Label1.Visible = False
@@ -188,52 +163,29 @@ Public Class calculatorpob1
     End Sub
 
     Private Sub button21_Click(sender As Object, e As EventArgs) Handles button21.Click
-        memoria = 0.0
+        memoria = 0
     End Sub
 
     Private Sub button22_Click(sender As Object, e As EventArgs) Handles button22.Click
-        textBox1.Text = memoria.ToString("0.###############")
+        textBox1.Text = memoria.ToString()
     End Sub
 
     Private Sub button23_Click(sender As Object, e As EventArgs) Handles button23.Click
-        Dim numero As Double
-        If Double.TryParse(textBox1.Text, numero) Then
-            memoria = numero
-        Else
-            MsgBox("Entrada no válida para guardar en memoria")
-        End If
+        memoria = Val(textBox1.Text)
     End Sub
 
     Private Sub button24_Click(sender As Object, e As EventArgs) Handles button24.Click
-        Dim numero As Double
-        If Double.TryParse(textBox1.Text, numero) Then
-            memoria += numero
-        Else
-            MsgBox("Entrada no válida para sumar a memoria")
-        End If
+        memoria = memoria + Val(textBox1.Text)
     End Sub
 
     Private Sub button27_Click(sender As Object, e As EventArgs) Handles button27.Click
-        Dim numero As Double
-
-        If Not estaInvertido Then
-            If Double.TryParse(textBox1.Text, numero) Then
-                If numero <> 0 Then
-                    valorOriginal = numero
-                    textBox1.Text = (1 / numero).ToString("0.###############")
-                    estaInvertido = True
-                Else
-                    MsgBox("No se puede dividir entre cero")
-                End If
-            Else
-                MsgBox("Entrada no válida")
-            End If
+        Dim num As Double = Val(textBox1.Text)
+        If num <> 0 Then
+            textBox1.Text = (1 / num).ToString()
         Else
-            textBox1.Text = valorOriginal.ToString("0.###############")
-            estaInvertido = False
+            MsgBox("No se puede dividir entre cero")
         End If
     End Sub
-
 
     Private Sub button26_Click(sender As Object, e As EventArgs) Handles button26.Click
         textBox1.Clear()
@@ -243,9 +195,5 @@ Public Class calculatorpob1
         If textBox1.Text.Length > 0 Then
             textBox1.Text = textBox1.Text.Substring(0, textBox1.Text.Length - 1)
         End If
-    End Sub
-
-    Private Sub textBox2_TextChanged(sender As Object, e As EventArgs) Handles textBox2.TextChanged
-
     End Sub
 End Class

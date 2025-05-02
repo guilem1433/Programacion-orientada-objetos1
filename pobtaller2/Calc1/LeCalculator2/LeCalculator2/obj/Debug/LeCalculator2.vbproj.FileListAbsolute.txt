@@ -1,0 +1,16 @@
+C:\Users\leonc\source\repos\LeCalculator2\LeCalculator2\bin\Debug\LeCalculator2.exe.config
+C:\Users\leonc\source\repos\LeCalculator2\LeCalculator2\bin\Debug\LeCalculator2.exe
+C:\Users\leonc\source\repos\LeCalculator2\LeCalculator2\bin\Debug\LeCalculator2.pdb
+C:\Users\leonc\source\repos\LeCalculator2\LeCalculator2\bin\Debug\LeCalculator2.xml
+C:\Users\leonc\source\repos\LeCalculator2\LeCalculator2\obj\Debug\LeCalculator2.vbproj.AssemblyReference.cache
+C:\Users\leonc\source\repos\LeCalculator2\LeCalculator2\obj\Debug\LeCalculator2.Form1.resources
+C:\Users\leonc\source\repos\LeCalculator2\LeCalculator2\obj\Debug\LeCalculator2.Resources.resources
+C:\Users\leonc\source\repos\LeCalculator2\LeCalculator2\obj\Debug\LeCalculator2.vbproj.GenerateResource.cache
+C:\Users\leonc\source\repos\LeCalculator2\LeCalculator2\obj\Debug\LeCalculator2.vbproj.CoreCompileInputs.cache
+C:\Users\leonc\source\repos\LeCalculator2\LeCalculator2\obj\Debug\LeCalculator2.exe
+C:\Users\leonc\source\repos\LeCalculator2\LeCalculator2\obj\Debug\LeCalculator2.xml
+C:\Users\leonc\source\repos\LeCalculator2\LeCalculator2\obj\Debug\LeCalculator2.pdb
+C:\Users\leonc\source\repos\LeCalculator2\LeCalculator2\bin\Debug\LeCalculator2.exe.manifest
+C:\Users\leonc\source\repos\LeCalculator2\LeCalculator2\bin\Debug\LeCalculator2.application
+C:\Users\leonc\source\repos\LeCalculator2\LeCalculator2\obj\Debug\LeCalculator2.exe.manifest
+C:\Users\leonc\source\repos\LeCalculator2\LeCalculator2\obj\Debug\LeCalculator2.application

@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23fbf6d5-4e59-425b-941c-ffb5e0af7998" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/python/040425/calculator_python.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/040425/psint_16ejemplos/instructions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/280325/minimo_comun_multiplo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/020625buscaminas/buscaminas_python.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/020625buscaminas/ui/created_grid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/020625buscaminas/ui/minas_ui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/factorial283225.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/280325/factorial283225.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/migracióncodigo28325.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/280325/migracióncodigo28325.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pobtaller2/calculatorvb/calculatorpob1.vb" beforeDir="false" afterPath="$PROJECT_DIR$/pobtaller2/calculatorvb/calculatorpob1.vb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pobtaller2/python_code/1/1pbt2.py" beforeDir="false" afterPath="$PROJECT_DIR$/pobtaller2/python_code/1/1pbt2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Calculadora.executor": "Run",
+    "Python.buscaminas_python.executor": "Run",
     "Python.calculator_python.executor": "Run",
+    "Python.created_grid.executor": "Run",
     "Python.factorial283225.executor": "Run",
     "Python.migracióncodigo28325.executor": "Run",
     "Python.minimo_comun_multiplo.executor": "Run",
@@ -47,18 +48,19 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/gilem/programing/pobtaller2/python_code",
+    "last_opened_file_path": "/home/gilem/programing/IdeaProjects/Programacion-orientada-objetos1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/020625buscaminas/ui" />
       <recent name="$PROJECT_DIR$/python/280325" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -66,8 +68,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26053.29" />
-        <option value="bundled-python-sdk-b1dbf8ef85a6-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26053.29" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PY-251.23774.444" />
+        <option value="bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444" />
       </set>
     </attachedChunks>
   </component>
@@ -86,6 +88,8 @@
       <workItem from="1743861152122" duration="1850000" />
       <workItem from="1744377928743" duration="5874000" />
       <workItem from="1744657751358" duration="726000" />
+      <workItem from="1746191253376" duration="227000" />
+      <workItem from="1746192635238" duration="4001000" />
     </task>
     <servers />
   </component>
@@ -93,11 +97,13 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Programacion_orientada_objetos1$trys.coverage" NAME="trys Coverage Results" MODIFIED="1744383515394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Programacion_orientada_objetos1$calculator_python.coverage" NAME="calculator_python Coverage Results" MODIFIED="1744380808528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/040425" />
-    <SUITE FILE_PATH="coverage/Programacion_orientada_objetos1$migracióncodigo28325.coverage" NAME="migracióncodigo28325 Coverage Results" MODIFIED="1743774325574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/280325" />
-    <SUITE FILE_PATH="coverage/Programacion_orientada_objetos1$minimo_comun_multiplo.coverage" NAME="minimo_comun_multiplo Coverage Results" MODIFIED="1743774459064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/280325" />
-    <SUITE FILE_PATH="coverage/Programacion_orientada_objetos1$Calculadora.coverage" NAME="Calculadora Coverage Results" MODIFIED="1744381773460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Programacion_orientada_objetos1$buscaminas_python.coverage" NAME="buscaminas_python Coverage Results" MODIFIED="1746192987988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/020625buscaminas" />
     <SUITE FILE_PATH="coverage/Programacion_orientada_objetos1$factorial283225.coverage" NAME="factorial283225 Coverage Results" MODIFIED="1743774299348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/280325" />
+    <SUITE FILE_PATH="coverage/Programacion_orientada_objetos1$calculator_python.coverage" NAME="calculator_python Coverage Results" MODIFIED="1744380808528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/040425" />
+    <SUITE FILE_PATH="coverage/Programacion_orientada_objetos1$minimo_comun_multiplo.coverage" NAME="minimo_comun_multiplo Coverage Results" MODIFIED="1743774459064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/280325" />
+    <SUITE FILE_PATH="coverage/Programacion_orientada_objetos1$trys.coverage" NAME="trys Coverage Results" MODIFIED="1744383515394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Programacion_orientada_objetos1$created_grid.coverage" NAME="created_grid Coverage Results" MODIFIED="1746196191721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/020625buscaminas/ui" />
+    <SUITE FILE_PATH="coverage/Programacion_orientada_objetos1$Calculadora.coverage" NAME="Calculadora Coverage Results" MODIFIED="1744381773460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Programacion_orientada_objetos1$migracióncodigo28325.coverage" NAME="migracióncodigo28325 Coverage Results" MODIFIED="1743774325574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/280325" />
   </component>
 </project>
