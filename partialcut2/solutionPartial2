@@ -1,0 +1,17 @@
+Respuestas:
+1. public class Profesor extends Persona{}
+2. java.lang
+3. 2 objetos son creados. Debido a que
+el primer elemento crea un objeto; de igual manera
+que el segundo, el tercero reutiliza el valor de
+la linea 2, por tanto no crea otro objeto.
+Finalmente, la cuarta línea representa una igualdad
+con la segunda línea, por tanto genera el mismo objeto.
+
+4. Heap: 1 objeto String
+Stack: 4 referencias: str1,str2,str3,str4
+Constant: 1 str "hola mundo cruel"
+Static : vacía
+
+5.
+
