@@ -1,3 +1,4 @@
+// File: Boleteria.java
 import java.io.PrintStream;
 
 public class Boleteria {
@@ -8,11 +9,11 @@ public class Boleteria {
     public StringBuffer sb = new StringBuffer();
 
     public Boleteria() {
-        open(100.0, valorPromo);
+        open(100.0, 80.0);
     }
 
     public Boleteria(double valorComun) {
-        open(valorComun, valorPromo);
+        open(valorComun, valorComun * 0.8);
     }
 
     public Boleteria(double valorComun, double valorPromo) {
@@ -41,12 +42,6 @@ public class Boleteria {
         inicialize();
     }
 
-    public void open(final double valoComun) {
-        setValor(valoComun);
-        setValorPromo(valoComun * 0.8);
-        inicialize();
-    }
-
     public void inicialize() {
         totalComun = 0.0;
         totalPromo = 0.0;
@@ -59,7 +54,7 @@ public class Boleteria {
         return getValor() * n;
     }
 
-    public double ticketPromo(String fecha, int n) { // Fixed parameter name
+    public double ticketPromo(String fecha, int n) {
         totalPromo += getValorPromo() * n;
         sb.append(fecha + "\t" + "P\t" + n + "\t" + getValorPromo() + "\t" + (getValorPromo() * n) + "\n");
         return getValorPromo() * n;
@@ -76,7 +71,7 @@ public class Boleteria {
     }
 
     public double total() {
-        return totalTicket() + totalTicketsPromo(); // Fixed method call
+        return totalTicket() + totalTicketsPromo();
     }
 
     public double totalTicket() {
@@ -84,6 +79,6 @@ public class Boleteria {
     }
 
     public double totalTicketsPromo() {
-        return totalPromo; // Fixed return value
+        return totalPromo;
     }
-}   
+}

@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23fbf6d5-4e59-425b-941c-ffb5e0af7998" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/partialcut2/Boleteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/partialcut2/solutionPartial2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Programacion-orientada-objetos1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Programacion-orientada-objetos1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Partial2.java/Partial2.java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Partial2.java/src/Boleteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boleteria.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "Python.Calculadora.executor": "Run",
     "Python.buscaminas_python.executor": "Run",
     "Python.calculator_python.executor": "Run",
@@ -56,6 +56,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/gilem/programing/IdeaProjects/Programacion-orientada-objetos1/Partial2.java/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "proofread",
     "vue.rearranger.settings.migration": "true"
   }
@@ -93,7 +97,7 @@
       <workItem from="1746191253376" duration="227000" />
       <workItem from="1746192635238" duration="5806000" />
       <workItem from="1746795496756" duration="827000" />
-      <workItem from="1746796377952" duration="4307000" />
+      <workItem from="1746796377952" duration="5056000" />
     </task>
     <servers />
   </component>
