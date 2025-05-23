@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23fbf6d5-4e59-425b-941c-ffb5e0af7998" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Partial2.java/Partial2.java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Partial2.java/src/Boleteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esejo230525/esejo230525.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boleteria.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.javaCopiarEditarpublic.executor": "Run",
     "Python.Calculadora.executor": "Run",
     "Python.buscaminas_python.executor": "Run",
     "Python.calculator_python.executor": "Run",
@@ -50,13 +50,13 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/gilem/programing/IdeaProjects/Programacion-orientada-objetos1",
+    "last_opened_file_path": "/home/gilem/programing/click-up-agency-avances",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/gilem/programing/IdeaProjects/Programacion-orientada-objetos1/Partial2.java/src/Main.java",
+    "onboarding.tips.debug.path": "/home/gilem/programing/IdeaProjects/Programacion-orientada-objetos1/esejo230525/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -74,8 +74,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.109" />
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.109" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
       </set>
     </attachedChunks>
   </component>
@@ -97,7 +97,10 @@
       <workItem from="1746191253376" duration="227000" />
       <workItem from="1746192635238" duration="5806000" />
       <workItem from="1746795496756" duration="827000" />
-      <workItem from="1746796377952" duration="5056000" />
+      <workItem from="1746796377952" duration="5396000" />
+      <workItem from="1747178463854" duration="153000" />
+      <workItem from="1747178740938" duration="5000" />
+      <workItem from="1748007128177" duration="4587000" />
     </task>
     <servers />
   </component>
