@@ -75,21 +75,16 @@ class Formulary:
         username_entry.grid(row=1, colum=1, padx=5, pady=5)
 
         #Password
-        password_label = tk.Entry(frame, width=20)
-        username_entry.grid(row=2, column=1, padx=5, pady=5)
+        password_label = tk.Entry(frame, text="Password:")
+        username_entry.grid(row=2, column=0, sticky="e", padx=5, pady=5)
 
-        #Confirm Password
-        confirm_label = tk.Label(frame, text="Confirmar contrast:")
-        confirm_label.grid(row=3, column=1, padx=5, pady=5)
+        password_entry = tk.Entry(frame, width=20, show="*")
+        password_entry.grid(row=2, column=1, padx=5, pady=5)
 
-        #Register Button
-        register_button = tk.Button(frame, text="Register",
-                                    command=lambda: self.register_user(username_entry.get(),
-                                                                       password_entry.get(),
-                                                                       confirm_entry.get()))
-        register_button.grid(row=4, column=0, columnspan=2, pady=10)
-
-
+        #loging button
+        loging_button = tk.button(frame, text="login",
+                                  command=lambda: self.validate_login(username_entry.get(), password_entry.get()))
+        loging_button.grid(row=)
 
 
 
