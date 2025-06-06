@@ -1,6 +1,7 @@
 """
 Galaga, 1.5mi
-Ranita
+
+Ranitan 44mi
 
 Snake
 

@@ -3,7 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.12 (Git_testT)" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_22_PREVIEW" project-jdk-name="openjdk-22" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/Partial2.java" />
-  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Poetry (Programacion-orientada-objetos1)" project-jdk-type="Python SDK" />
 </project>
